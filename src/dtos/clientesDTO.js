@@ -1,4 +1,4 @@
-// DTO = limpa e valida o que vem do front, não deixa vazar a senha
+// DTO = limpa e valida o que vem do front, nao deixa vazar a senha
 function semSenha(cliente) {
   if (!cliente) return null;
   const { senha, ...resto } = cliente;
@@ -8,7 +8,7 @@ function semSenha(cliente) {
 function cadastroDTO(body) {
   const { nome, email, senha, cidade } = body || {};
   if (!nome || !email || !senha) return { erro: "Preencha nome, email e senha" };
-  return { nome, email, senha, cidade: cidade || "Hugo Napoleão - PI" };
+  return { nome, email, senha, cidade: cidade || "Hugo Napoleao - PI" };
 }
 
 function loginDTO(body) {
