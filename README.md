@@ -14,7 +14,7 @@ Conecta clientes que precisam de reparos com profissionais locais.
 
 ## Tecnologias
 
-Node.js, CORS, bcryptjs, jsonwebtoken, dotenv
+Node.js, Express, CORS, bcryptjs, jsonwebtoken, dotenv
 
 Arquitetura: DTO + Controller + Routes + Store (em memória)
 
